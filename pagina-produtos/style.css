@@ -7,6 +7,19 @@
 
 header {
     background-color: rgba(128, 128, 128, 0.562);
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 115px;
+    right: 0px;
 }
 
 nav li {
