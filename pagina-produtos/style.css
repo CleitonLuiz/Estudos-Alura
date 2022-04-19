@@ -5,6 +5,11 @@
     padding: 0px;
 }
 
+body {
+    min-width: 320px;
+    max-width: 1350px;
+}
+
 header {
     background-color: rgba(128, 128, 128, 0.562);
     padding: 20px;
@@ -37,19 +42,21 @@ nav a {
 }
 
 .produtos {
-    width: 940px;
+    
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 10px 30px;
 }
 
 
 .produtos article {
     display: inline-block;
-    border: 2px solid black;
     text-align: center;
-    width: 30%;
+    width: 33%;
     vertical-align: top;
-    margin: 0 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .produtos h2 {
@@ -65,4 +72,5 @@ nav a {
 .produto-preço {
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
