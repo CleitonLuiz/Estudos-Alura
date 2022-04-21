@@ -41,8 +41,12 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
 .produtos {
-    
     margin: 0 auto;
     padding: 10px 30px;
 }
@@ -55,8 +59,20 @@ nav a {
     vertical-align: top;
     margin: 0 auto;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
+}
+
+.produtos article:hover {
+    border-color: yellow;
+}
+
+.produtos article:active {
+    border-color: green;
+}
+
+.produtos article:hover h2 {
+    font-size: 40px;
 }
 
 .produtos h2 {
