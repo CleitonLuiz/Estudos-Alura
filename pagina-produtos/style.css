@@ -90,3 +90,14 @@ nav a:hover {
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer{
+    text-align: center;
+    background-image: url("bg.jpg");
+    padding: 20px 0px;
+}
+
+.copyrigth {
+    color: white;
+    
+}
