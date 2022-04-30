@@ -99,3 +99,26 @@ footer{
 .copyrigth {
     color: white;
 }
+
+main {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+    font-size: 22px;
+
+}
+
+form input {
+    display: block;
+    margin: 12px 0;
+    padding: 6px;
+    width: 40%;
+}
