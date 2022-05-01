@@ -109,16 +109,24 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label, p {
     display: block;
     margin: 10px 0;
     font-size: 22px;
 
 }
 
-form input {
+.inputsdoform{
     display: block;
     margin: 12px 0;
     padding: 6px;
     width: 40%;
+}
+ 
+.checkbox {
+    margin: 20px 0;
+}
+
+.margin {
+    margin: 5 5;
 }
